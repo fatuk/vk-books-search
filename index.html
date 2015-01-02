@@ -36,6 +36,12 @@
 										<option value="txt">txt</option>
 										<option value="epub">epub</option>
 									</select>
+									<!-- <div class="checkbox">
+										<label>
+											<input type="checkbox" value="">
+											Название целиком
+										</label>
+									</div> -->
 								</div>
 
 							</form>
@@ -64,7 +70,7 @@
 			<li>
 				<h3>{{{title}}}</h3>
 				<div>{{{content}}}</div>
-				<a href="{{url}}" target="_blank">{{url}}</a>
+				<a href="{{unescapedUrl}}" target="_blank">{{unescapedUrl}}</a>
 			</li>
 			{{/results}}
 
